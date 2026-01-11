@@ -1,5 +1,7 @@
 package org.example;
 
+import org.springframework.stereotype.Service;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -8,6 +10,7 @@ import java.nio.file.Paths;
 import java.util.PriorityQueue;
 import java.util.concurrent.*;
 
+@Service
 public class InventoryManagement {
     private final WALService wal = new WALService();
 

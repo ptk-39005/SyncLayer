@@ -63,6 +63,6 @@ public class Main {
         } else {
             System.out.println("FAILURE: State mismatch after recovery.");
         }
-        System.exit(0);
+        //System.exit(0);
     }
 }
